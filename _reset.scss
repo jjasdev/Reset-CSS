@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}  
+
+ul,
+li,
+a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}    
+input,
+button {
+    background-color: transparent;
+    border: 0;
+}
+img,
+picture,
+video,
+iframe,
+figure {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    color: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+form,
+input,
+textarea,
+select,
+button,
+label {
+    appearance: none;
+    background-color: transparent;
+    color:inherit;
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+}
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+  
